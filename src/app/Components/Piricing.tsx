@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Check, ArrowRight, Bot } from "lucide-react"
+import { Bot } from "lucide-react"
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts"
 
 const plans = [
