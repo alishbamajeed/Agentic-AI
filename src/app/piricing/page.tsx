@@ -1,11 +1,12 @@
 import React from 'react'
-import Pricing from '../Components/Piricing'
+
+import Price from '../Components/Piricing'
 
 
 const page = () => {
   return (
     <div>
-        <Pricing/>
+        <Price/>
     </div>
   )
 }

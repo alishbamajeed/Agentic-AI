@@ -19,7 +19,7 @@ const plans = [
   },
 ]
 
-const Pricing = () => {
+const Price= () => {
   return (
     <section className="relative py-16 px-4 overflow-hidden bg-black">
       <motion.div 
@@ -90,4 +90,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default Price
