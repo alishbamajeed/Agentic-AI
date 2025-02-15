@@ -36,15 +36,15 @@ const Price= () => {
           repeatType: "reverse",
         }}
       />
-      <div className="max-w-7xl mx-auto relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-        <div className="lg:w-1/2 text-center lg:text-left">
+      <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center justify-between gap-8">
+        <div className="w-full text-center">
           <motion.h2
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white"
+            className="text-3xl md:text-4xl font-bold mb-4 text-white"
           >
-            <Bot className="w-16 h-16 mb-4 text-purple-500 inline-block" />
+            <Bot className="w-12 h-12 mb-4 text-purple-500 inline-block" />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-purple-400 to-violet-600">
               Choose Your Plan
             </span>
@@ -53,11 +53,12 @@ const Price= () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-xl text-gray-300 mb-12"
+            className="text-lg text-gray-300 mb-8"
           >
             Scale your AI capabilities with our flexible pricing
-          </motion.p>        </div>
-        <div className="lg:w-1/2 h-[400px]">
+          </motion.p>
+        </div>
+        <div className="w-full h-[300px]">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={plans}>
               <XAxis dataKey="name" stroke="#fff" />
@@ -73,7 +74,7 @@ const Price= () => {
               <Bar 
                 dataKey="price" 
                 fill="url(#colorGradient)" 
-                barSize={60}
+                barSize={40}
                 radius={[8, 8, 0, 0]}
               />
               <defs>
