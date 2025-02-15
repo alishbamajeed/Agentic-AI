@@ -1,0 +1,106 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\alish\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\alish\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\.npmrc
+5 silly config load:file:C:\Users\alish\.npmrc
+6 silly config load:file:C:\Users\alish\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-next
+8 verbose argv "install" "--save-dev" "eslint" "@typescript-eslint/parser" "@typescript-eslint/eslint-plugin" "eslint-config-next"
+9 verbose logfile logs-max:10 dir:C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\pathtonewnpm-cache\_logs\2025-02-15T06_51_31_634Z-
+10 verbose logfile C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\pathtonewnpm-cache\_logs\2025-02-15T06_51_31_634Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2143813632 maxSize:535953408 maxEntrySize:267976704
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest eslint@^9
+16 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/eslint 1490ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/eslint set size:undefined disposed:false
+19 silly fetch manifest jiti@*
+20 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/jiti 385ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/jiti set size:undefined disposed:false
+23 silly fetch manifest eslint-config-next@15.1.7
+24 silly packumentCache full:https://registry.npmjs.org/eslint-config-next cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/eslint-config-next 1607ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/eslint-config-next set size:undefined disposed:false
+27 silly fetch manifest typescript@^5
+28 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/typescript 1322ms (cache updated)
+30 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+31 silly fetch manifest @typescript-eslint/parser@*
+32 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fparser 2307ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser set size:undefined disposed:false
+35 silly fetch manifest @typescript-eslint/eslint-plugin@*
+36 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2feslint-plugin 2451ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin set size:undefined disposed:false
+39 silly placeDep ROOT @typescript-eslint/eslint-plugin@8.24.0 REPLACE for: my-app@0.1.0 want: *
+40 silly placeDep ROOT @typescript-eslint/parser@8.24.0 REPLACE for: my-app@0.1.0 want: *
+41 silly placeDep ROOT eslint@9.20.1 REPLACE for: my-app@0.1.0 want: ^9
+42 silly placeDep ROOT eslint-config-next@15.1.7 REPLACE for: my-app@0.1.0 want: 15.1.7
+43 silly fetch manifest react@^17.x || ^18.x
+44 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/react 750ms (cache updated)
+46 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+47 silly fetch manifest react-dom@^17.x || ^18.x
+48 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/react-dom 875ms (cache updated)
+50 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+51 verbose stack Error: could not resolve
+51 verbose stack     at PlaceDep.failPeerConflict (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:503:25)
+51 verbose stack     at new PlaceDep (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:157:21)
+51 verbose stack     at #buildDepStep (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:920:18)
+51 verbose stack     at async Arborist.buildIdealTree (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+51 verbose stack     at async Promise.all (index 1)
+51 verbose stack     at async Arborist.reify (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+51 verbose stack     at async Install.exec (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:149:5)
+51 verbose stack     at async Npm.exec (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\lib\npm.js:207:9)
+51 verbose stack     at async module.exports (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:67:5)
+52 error code ERESOLVE
+53 error ERESOLVE could not resolve
+54 error
+55 error While resolving: typewriter-effect@2.21.0
+55 error Found: react@19.0.0[2m[22m
+55 error [2mnode_modules/react[22m
+55 error   [95mpeer[39m react@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-compose-refs@1.1.1[2m[22m
+55 error   [2mnode_modules/@radix-ui/react-compose-refs[22m
+55 error     @radix-ui/react-compose-refs@"1.1.1" from @radix-ui/react-slot@1.1.2[2m[22m
+55 error     [2mnode_modules/@radix-ui/react-slot[22m
+55 error       @radix-ui/react-slot@"^1.1.2" from the root project
+55 error   [95mpeer[39m react@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-slot@1.1.2[2m[22m
+55 error   [2mnode_modules/@radix-ui/react-slot[22m
+55 error     @radix-ui/react-slot@"^1.1.2" from the root project
+55 error   10 more (framer-motion, lucide-react, next, react-dom, react-icons, ...)
+55 error
+55 error Could not resolve dependency:
+55 error [95mpeer[39m react@"^17.x || ^18.x" from typewriter-effect@2.21.0[2m[22m
+55 error [2mnode_modules/typewriter-effect[22m
+55 error   typewriter-effect@"^2.21.0" from the root project
+55 error
+55 error Conflicting peer dependency: react@18.3.1[2m[22m
+55 error [2mnode_modules/react[22m
+55 error   [95mpeer[39m react@"^17.x || ^18.x" from typewriter-effect@2.21.0[2m[22m
+55 error   [2mnode_modules/typewriter-effect[22m
+55 error     typewriter-effect@"^2.21.0" from the root project
+55 error
+55 error Fix the upstream dependency conflict, or retry
+55 error this command with --force or --legacy-peer-deps
+55 error to accept an incorrect (and potentially broken) dependency resolution.
+56 error
+56 error
+56 error For a full report see:
+56 error C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\pathtonewnpm-cache\_logs\2025-02-15T06_51_31_634Z-eresolve-report.txt
+57 silly unfinished npm timer reify 1739602295871
+58 silly unfinished npm timer reify:loadTrees 1739602295874
+59 silly unfinished npm timer idealTree:buildDeps 1739602296540
+60 silly unfinished npm timer idealTree:node_modules/typewriter-effect 1739602308585
+61 verbose cwd C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app
+62 verbose os Windows_NT 10.0.19045
+63 verbose node v20.17.0
+64 verbose npm  v11.1.0
+65 verbose exit 1
+66 verbose code 1
+67 error A complete log of this run can be found in: C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\pathtonewnpm-cache\_logs\2025-02-15T06_51_31_634Z-debug-0.log

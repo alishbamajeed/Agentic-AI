@@ -1,0 +1,71 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\alish\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\alish\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\.npmrc
+5 silly config load:file:C:\Users\alish\.npmrc
+6 silly config load:file:C:\Users\alish\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install typewriter-effect@latest
+8 verbose argv "install" "typewriter-effect@latest"
+9 verbose logfile logs-max:10 dir:C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\pathtonewnpm-cache\_logs\2025-02-15T06_54_23_183Z-
+10 verbose logfile C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\pathtonewnpm-cache\_logs\2025-02-15T06_54_23_183Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2143813632 maxSize:535953408 maxEntrySize:267976704
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/typewriter-effect cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/typewriter-effect 2203ms (cache miss)
+16 silly packumentCache corgi:https://registry.npmjs.org/typewriter-effect set size:undefined disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest typewriter-effect@2.21.0
+19 silly packumentCache full:https://registry.npmjs.org/typewriter-effect cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/typewriter-effect 452ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/typewriter-effect set size:undefined disposed:false
+22 silly fetch manifest react@^19.0.0
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http cache https://registry.npmjs.org/react 218ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:5441711 disposed:false
+26 silly fetch manifest react@^17.x || ^18.x
+27 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+28 http cache https://registry.npmjs.org/react 137ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/react set size:5441711 disposed:false
+30 verbose stack Error: unable to resolve dependency tree
+30 verbose stack     at #failPeerConflict (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1363:25)
+30 verbose stack     at #loadPeerSet (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1329:33)
+30 verbose stack     at async #buildDepStep (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:904:11)
+30 verbose stack     at async Arborist.buildIdealTree (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+30 verbose stack     at async Promise.all (index 1)
+30 verbose stack     at async Arborist.reify (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+30 verbose stack     at async Install.exec (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:149:5)
+30 verbose stack     at async Npm.exec (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\lib\npm.js:207:9)
+30 verbose stack     at async module.exports (C:\Users\alish\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:67:5)
+31 error code ERESOLVE
+32 error ERESOLVE unable to resolve dependency tree
+33 error
+34 error While resolving: my-app@0.1.0
+34 error Found: react@19.0.0[2m[22m
+34 error [2mnode_modules/react[22m
+34 error   react@"^19.0.0" from the root project
+34 error
+34 error Could not resolve dependency:
+34 error [95mpeer[39m react@"^17.x || ^18.x" from typewriter-effect@2.21.0[2m[22m
+34 error [2mnode_modules/typewriter-effect[22m
+34 error   typewriter-effect@"2.21.0" from the root project
+34 error
+34 error Fix the upstream dependency conflict, or retry
+34 error this command with --force or --legacy-peer-deps
+34 error to accept an incorrect (and potentially broken) dependency resolution.
+35 error
+35 error
+35 error For a full report see:
+35 error C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\pathtonewnpm-cache\_logs\2025-02-15T06_54_23_183Z-eresolve-report.txt
+36 silly unfinished npm timer reify 1739602464957
+37 silly unfinished npm timer reify:loadTrees 1739602464962
+38 silly unfinished npm timer idealTree:buildDeps 1739602468132
+39 silly unfinished npm timer idealTree:#root 1739602468134
+40 verbose cwd C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app
+41 verbose os Windows_NT 10.0.19045
+42 verbose node v20.17.0
+43 verbose npm  v11.1.0
+44 verbose exit 1
+45 verbose code 1
+46 error A complete log of this run can be found in: C:\Users\alish\OneDrive\Desktop\agentic.ai\my-app\pathtonewnpm-cache\_logs\2025-02-15T06_54_23_183Z-debug-0.log
